@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 56" fill="none">
+  <circle cx="22" cy="28" r="19" fill="#FDEAF1" stroke="#E8348A" stroke-width="2"/>
+  <path d="M22 18C18.5 18 16 20.6 16 23.8C16 28.5 22 34.5 22 34.5C22 34.5 28 28.5 28 23.8C28 20.6 25.5 18 22 18Z" fill="#E8348A"/>
+  <text x="52" y="27" fill="#12263F" font-family="system-ui, sans-serif" font-size="14" font-weight="700">Arogya Civil Care</text>
+  <text x="52" y="42" fill="#5B6B7C" font-family="system-ui, sans-serif" font-size="10.5" font-weight="500">Clinical Rotation Hub</text>
+</svg>

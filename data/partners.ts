@@ -1,0 +1,58 @@
+import { PartnerHospital } from '@/lib/types';
+
+export const partnersData: PartnerHospital[] = [
+  {
+    id: 'partner-1',
+    name: 'Sanjeevani Multi-Specialty Hospital',
+    type: 'Parent / Primary Teaching Hospital',
+    city: 'Itamati / Nayagarh',
+    beds: '200+ Beds',
+    logoPath: '/logos/partner-sanjeevani.svg',
+    confirm: false,
+  },
+  {
+    id: 'partner-2',
+    name: 'Arogya Civil & General Hospital',
+    type: 'Public Clinical Rotation Partner',
+    city: 'Nayagarh District',
+    beds: '300+ Beds',
+    logoPath: '/logos/partner-arogya.svg',
+    confirm: false,
+  },
+  {
+    id: 'partner-3',
+    name: 'Matru-Seva Women & Child Care',
+    type: 'OBG & NICU Specialty Partner',
+    city: 'Nayagarh Region',
+    beds: '120 Beds',
+    logoPath: '/logos/partner-matruseva.svg',
+    confirm: false,
+  },
+  {
+    id: 'partner-4',
+    name: 'Lifeline Heart & Critical Care',
+    type: 'ICU & Placement Recruiter',
+    city: 'Bhubaneswar / Odisha',
+    beds: '180 Beds',
+    logoPath: '/logos/partner-lifeline.svg',
+    confirm: false,
+  },
+  {
+    id: 'partner-5',
+    name: 'Navjeevan Community Health Centre',
+    type: 'Rural & Community Posting',
+    city: 'Nayagarh Block',
+    beds: 'PHC / CHC',
+    logoPath: '/logos/partner-navjeevan.svg',
+    confirm: false,
+  },
+  {
+    id: 'partner-6',
+    name: 'Apex Trauma & Surgical Centre',
+    type: 'OT & Trauma Clinical Partner',
+    city: 'Nayagarh Region',
+    beds: '150 Beds',
+    logoPath: '/logos/partner-apex.svg',
+    confirm: false,
+  },
+];

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 56" fill="none">
+  <rect x="2" y="8" width="40" height="40" rx="20" fill="#FFF4D6" stroke="#0E8F8A" stroke-width="2"/>
+  <path d="M14 31C17 24 27 24 30 31" stroke="#0E8F8A" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="22" cy="21" r="4" fill="#E8348A"/>
+  <text x="52" y="27" fill="#12263F" font-family="system-ui, sans-serif" font-size="14" font-weight="700">Matru-Seva OBG</text>
+  <text x="52" y="42" fill="#5B6B7C" font-family="system-ui, sans-serif" font-size="10.5" font-weight="500">Maternity &amp; NICU</text>
+</svg>

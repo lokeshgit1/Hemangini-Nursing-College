@@ -1,0 +1,7 @@
+node_modules
+.next
+out
+01_PRD.md
+02_ARCHITECTURE_STATIC.md
+03_DESIGN.md
+package-lock.json

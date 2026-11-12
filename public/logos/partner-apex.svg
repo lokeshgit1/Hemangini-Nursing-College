@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 56" fill="none">
+  <rect x="2" y="8" width="40" height="40" rx="10" fill="#FFF8F1" stroke="#0E8F8A" stroke-width="2"/>
+  <path d="M22 16L31 36H13L22 16Z" stroke="#0E8F8A" stroke-width="2.3" stroke-linejoin="round"/>
+  <circle cx="22" cy="29" r="2.2" fill="#E8348A"/>
+  <text x="52" y="27" fill="#12263F" font-family="system-ui, sans-serif" font-size="14" font-weight="700">Apex Trauma Centre</text>
+  <text x="52" y="42" fill="#5B6B7C" font-family="system-ui, sans-serif" font-size="10.5" font-weight="500">Surgical &amp; OT</text>
+</svg>

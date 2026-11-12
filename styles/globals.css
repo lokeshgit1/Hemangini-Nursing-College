@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Brand */
+  --primary: #0e8f8a;
+  --primary-dark: #0a6b67;
+  --accent: #e8348a;
+  --accent-dark: #c42473;
+  --navy: #12263f;
+
+  /* Surfaces */
+  --bg: #ffffff;
+  --bg-cream: #fff8f1;
+  --bg-mint: #e8f7f8;
+  --bg-blush: #fdeaf1;
+  --bg-sun: #fff4d6;
+  --bg-grey: #eef0f3;
+
+  /* Text */
+  --text: #1b2a3b;
+  --text-muted: #5b6b7c;
+  --border: #e3e8ee;
+
+  /* Feedback */
+  --success: #1e9e5a;
+  --warning: #f2a900;
+  --error: #d93a3a;
+  --star: #ffc21a;
+
+  /* Gradients */
+  --hero-gradient: linear-gradient(120deg, #fde3ec 0%, #fff1ea 40%, #ddf3f6 100%);
+  --diamond-gradient: linear-gradient(135deg, #f6a5be 0%, #8fd3de 100%);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    color: var(--text);
+    background-color: var(--bg);
+    font-family:
+      var(--font-inter),
+      system-ui,
+      -apple-system,
+      'Segoe UI',
+      Roboto,
+      sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family:
+      var(--font-outfit),
+      system-ui,
+      -apple-system,
+      'Segoe UI',
+      Roboto,
+      sans-serif;
+    color: var(--navy);
+  }
+
+  *:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(14, 143, 138, 0.45);
+    border-radius: 4px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Custom utility classes for patterns and layout accents */
+.bg-hero-gradient {
+  background: var(--hero-gradient);
+}
+
+.bg-diamond-gradient {
+  background: var(--diamond-gradient);
+}
+
+.hero-dots-pattern {
+  background-image: radial-gradient(rgba(14, 143, 138, 0.16) 1.5px, transparent 1.5px);
+  background-size: 22px 22px;
+}
+
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 16px;
+  z-index: 100;
+  background: var(--navy);
+  color: #ffffff;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: top 150ms ease;
+}
+
+.skip-link:focus {
+  top: 16px;
+}
+
+@keyframes marqueeScroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marqueeScroll 28s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-marquee {
+    animation: none;
+  }
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 56" fill="none">
+  <rect x="2" y="8" width="40" height="40" rx="10" fill="#E8F7F8" stroke="#0E8F8A" stroke-width="2"/>
+  <path d="M22 17L32 24V37H12V24L22 17Z" stroke="#0E8F8A" stroke-width="2.3" stroke-linejoin="round"/>
+  <path d="M22 25V33M18 29H26" stroke="#E8348A" stroke-width="2.3" stroke-linecap="round"/>
+  <text x="52" y="27" fill="#12263F" font-family="system-ui, sans-serif" font-size="14" font-weight="700">Navjeevan PHC/CHC</text>
+  <text x="52" y="42" fill="#5B6B7C" font-family="system-ui, sans-serif" font-size="10.5" font-weight="500">Community Health</text>
+</svg>

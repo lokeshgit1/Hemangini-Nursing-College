@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 56" fill="none">
+  <rect x="2" y="8" width="40" height="40" rx="10" fill="#EEF0F3" stroke="#12263F" stroke-width="2"/>
+  <path d="M10 29H16L19 21L24 35L27 26L30 29H34" stroke="#E8348A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="52" y="27" fill="#12263F" font-family="system-ui, sans-serif" font-size="14" font-weight="700">Lifeline Critical Care</text>
+  <text x="52" y="42" fill="#5B6B7C" font-family="system-ui, sans-serif" font-size="10.5" font-weight="500">ICU &amp; Placement</text>
+</svg>
